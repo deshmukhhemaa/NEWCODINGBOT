@@ -3,11 +3,11 @@ from tkinter import *
 #  creating the password Generator window 
 Screen= Tk()
 Screen.geometry("500x300")
-Screen.title("password Generator by ProjectGurukul")
+Screen.title("password Generator by HEMA")
 #program title
 Title = StringVar()
 TitleLabel = Label(Screen, textvariable=Title).pack()
-Title.set("Strength of Password-ProjectGururkul")
+Title.set("Strength of Password-HEMA")
 # create radio buttons 
 def SelectionOptions():
     SelectionOptions = Choice.get()
